@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://images.pexels.com/photos/163116/typewriter-vintage-old-vintage-typewriter-163116.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #text {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  #author {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  #new-quote {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #tweet-quote {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
